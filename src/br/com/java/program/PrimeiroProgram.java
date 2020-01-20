@@ -1,13 +1,17 @@
 package br.com.java.program;
 
+import java.util.Scanner;
+
 public class PrimeiroProgram {
 	public static void main(String args[]) {
 		
-		System.out.println("elcy arruda");
+		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("primeiro teste concluido");
 		
-		System.out.println("agora vai");
+		String nome = sc.nextLine();
+		
+		
+		System.out.println(nome);
 		
 	}
 
